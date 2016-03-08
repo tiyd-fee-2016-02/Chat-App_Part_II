@@ -1,8 +1,7 @@
-var APIValue;
+var firstValue;
+
 $(function(){
   'use strict';
-
-
 
 
 $('.chat-input').keypress(function(event){
@@ -13,7 +12,7 @@ $('.chat-input').keypress(function(event){
      var splitValue = value.split(" ");
 
      var switchValue = splitValue[0];
-     APIValue = splitValue[1];
+     firstValue = splitValue[1];
 
      switch(switchValue) {
         case "@help":
@@ -35,6 +34,8 @@ $('.chat-input').keypress(function(event){
         case "@movie":
           atMovie();
             break;
+        case "@calc":
+          atCalc();
         default:
 
         } //closes switch
