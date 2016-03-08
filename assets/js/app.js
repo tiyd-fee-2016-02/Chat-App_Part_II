@@ -1,21 +1,23 @@
-
+var APIValue;
 $(function(){
   'use strict';
 
-//
-// $(".chat-input").keypress(function(){
-//   alert("this works!");
-// });
+
 
 
 $('.chat-input').keypress(function(event){
    var keycode = (event.keyCode ? event.keyCode : event.which);
    if(keycode == '13'){
-     console.log($(".chat-input").val())
+
      var value = $(".chat-input").val();
-     switch(value) {
+     var splitValue = value.split(" ");
+
+     var switchValue = splitValue[0];
+     APIValue = splitValue[1];
+
+     switch(switchValue) {
         case "@help":
-        console.log("you said hep")
+        console.log("you said help")
           $(".chat-container").append("<div class = 'alert alert-info' role = 'alert'>Type @weather to get the weather</div>")
             break;
         case "@weather":
