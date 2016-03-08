@@ -1,0 +1,21 @@
+{
+  "name": "Chat-App_Part_II",
+  "homepage": "https://github.com/tiyd-fee-2016-02/Chat-App_Part_II",
+  "authors": [
+    "Nicky Cadavillo <nicoleacadavillo@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
