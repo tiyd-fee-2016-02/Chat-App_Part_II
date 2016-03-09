@@ -1,12 +1,14 @@
 .chat-request {
-  float: right;
   background: white;
   position: fixed;
   bottom: 0;
-  padding: 25px; }
+  padding: 25px;
+  width: 100%;
+  overflow: scroll; }
 
 .chat-container {
-  padding-top: 20px; }
-
+  padding-top: 20px;
+  position: absolute;
+  bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

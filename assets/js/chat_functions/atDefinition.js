@@ -3,7 +3,7 @@
 
 
 
-  function atDefinition(){
+var atDefinition = function(){
 
     $(".chat-container").append("<div class = 'alert alert-success text-right' role = 'alert'>" + $(".chat-input").val() + "</div>")
 
@@ -16,14 +16,15 @@
     //   url: 'http://dictionaryapi.net/api/definition/' + firstValue,
     //   type: 'GET',
     //   dataType: 'jsonp'
-    // }).done(function (json) {
-    //   console.log("got json", json);
+    //   success: function(data){
+    //     console.log(data, 'success');
+    //   }
 
        $(".chat-container").append("<div class = 'alert alert-info text-left' role = 'alert'>" + json[0].definitions + "</div>")
 
-// });
 
-}); //closes getjson function
+}); //closes ajax
+// }); //closes getjson function
 
 }; //closes function atDictionary
 
