@@ -45,6 +45,9 @@ $('.chat-input').keypress(function(event){
         case "@calc":
           atCalc();
             break;
+        case "@movie":
+          atMovie();
+            break;
         default:
           atWhat();
         } //closes switch
