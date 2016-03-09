@@ -1,3 +1,4 @@
+var value;
 var firstValue;
 var secondValue;
 var searchValue;//will be used to re-piece back together multi-word queries for APIs that need them
@@ -43,11 +44,13 @@ $('.chat-input').keypress(function(event){
             break;
         case "@calc":
           atCalc();
+            break;
         default:
-          console.log("something looks wrong")
+          atWhat();
         } //closes switch
 
         $(".chat-input").val('')
+        //clears input box, ready for new commands!
 
    }// closes if
 

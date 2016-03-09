@@ -1,4 +1,5 @@
 .chat-request {
+  float: right;
   background: white;
   position: fixed;
   bottom: 0;
