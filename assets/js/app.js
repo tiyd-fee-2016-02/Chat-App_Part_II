@@ -16,8 +16,7 @@ $('.chat-input').keypress(function(event){
 
      switch(switchValue) {
         case "@help":
-        console.log("you said help")
-          $(".chat-container").append("<div class = 'alert alert-info' role = 'alert'>Type @weather to get the weather</div>")
+          atHelp();
             break;
         case "@weather":
           atWeather();
@@ -37,10 +36,14 @@ $('.chat-input').keypress(function(event){
         case "@calc":
           atCalc();
         default:
-
+          console.log("something looks wrong")
         } //closes switch
+
+        $(".chat-input").val('')
+
    }// closes if
-}); //closes input event
 
 
-})
+ }); //closes input event
+
+});
