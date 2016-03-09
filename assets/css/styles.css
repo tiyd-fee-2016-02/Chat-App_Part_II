@@ -3,12 +3,12 @@
   position: fixed;
   bottom: 0;
   padding: 25px;
-  width: 100%;
-  overflow: scroll; }
+  width: 100%; }
 
 .chat-container {
   padding-top: 20px;
   position: absolute;
-  bottom: 20px; }
+  bottom: 60px;
+  overflow: scroll; }
 
 /*# sourceMappingURL=styles.css.map */
