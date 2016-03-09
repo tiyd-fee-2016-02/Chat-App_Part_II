@@ -1,9 +1,9 @@
 var firstValue;
 var secondValue;
+var searchValue;//will be used to re-piece back together multi-word queries for APIs that need them
 
 $(function(){
   'use strict';
-
 
 $('.chat-input').keypress(function(event){
    var keycode = (event.keyCode ? event.keyCode : event.which);
@@ -37,6 +37,9 @@ $('.chat-input').keypress(function(event){
             break;
         case "@bg":
           atBG();
+            break;
+        case "@clear":
+          atClear();
             break;
         case "@calc":
           atCalc();
