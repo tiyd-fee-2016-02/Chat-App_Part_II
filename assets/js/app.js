@@ -35,6 +35,9 @@ $('.chat-input').keypress(function(event){
         case "@movie":
           atMovie();
             break;
+        case "@bg":
+          atBG();
+            break;
         case "@calc":
           atCalc();
         default:
