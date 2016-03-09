@@ -6,7 +6,7 @@ var atTemp = function(){
 
     var tempRound = Math.round(json.current_observation.temp_f);
 
-    $(".chat-container").append("<div class = 'alert alert-info text-left' role = 'alert'>" + tempRound + "</div>")
+    $(".chat-container").append("<div class = 'alert alert-info text-left' role = 'alert'>" + "It is " + tempRound + "&deg;F" + " in " +  firstValue + "</div>")
 
   });
 
