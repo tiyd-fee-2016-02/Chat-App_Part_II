@@ -1,3 +1,6 @@
+var giphySearch;
+var atCommand;
+var splitValue;
 var value;
 var firstValue;
 var secondValue;
