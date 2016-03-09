@@ -1,6 +1,6 @@
 var atBG = function(){
 
-  $(".chat-container").append("<div class = 'alert alert-success' role = 'alert'>" + $(".chat-input").val() + "</div>")
+  $(".chat-container").append("<div class = 'alert alert-success text-right' role = 'alert'>" + $(".chat-input").val() + "</div>")
 
 
 
@@ -30,6 +30,6 @@ var atBG = function(){
 
 $("body").css("background-color", firstValue);
 
-  $(".chat-container").append("<div class = 'alert alert-info' role = 'alert'>" + colorResponse + "</div>")
+  $(".chat-container").append("<div class = 'alert alert-info text-left' role = 'alert'>" + colorResponse + "</div>")
 
 }
