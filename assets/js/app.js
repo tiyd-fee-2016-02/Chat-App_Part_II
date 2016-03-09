@@ -1,4 +1,5 @@
 var firstValue;
+var secondValue;
 
 $(function(){
   'use strict';
@@ -13,6 +14,7 @@ $('.chat-input').keypress(function(event){
 
      var switchValue = splitValue[0];
      firstValue = splitValue[1];
+     secondValue = splitValue[2];
 
      switch(switchValue) {
         case "@help":
