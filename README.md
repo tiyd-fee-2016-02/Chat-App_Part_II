@@ -1,13 +1,13 @@
 # Chat-App_Part_II
 
-## Tori ##
+## Tori 
 * atBG
 * atWeather
 * atTemp
 * atJoke
 * atCalc
 
-## Nicky ## 
+## Nicky 
 * atGiphy
 * atMovie
 * atFrengly
