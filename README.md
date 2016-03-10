@@ -1,7 +1,7 @@
 # Chat-App_Part_II
 
 ## Tori ##
-* atGB
+* atBG
 * atWeather
 * atTemp
 * atJoke
