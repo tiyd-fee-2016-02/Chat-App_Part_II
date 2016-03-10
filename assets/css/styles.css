@@ -1,6 +1,12 @@
 input {
   width: 95%; }
 
+.alert-info {
+  border-radius: 40px 40px 40px 0; }
+
+.alert-success {
+  border-radius: 40px 40px 0 40px; }
+
 .chat-container {
   padding-top: 20px;
   padding-right: 15px;
