@@ -1,9 +1,5 @@
-.chat-request {
-  background: white;
-  position: fixed;
-  bottom: 0;
-  padding: 25px;
-  width: 100%; }
+input {
+  width: 95%; }
 
 .chat-container {
   padding-top: 20px;
@@ -11,5 +7,13 @@
   position: absolute;
   bottom: 60px;
   overflow: scroll; }
+
+.chat-request {
+  background: transparent;
+  position: fixed;
+  bottom: 0;
+  padding: 25px;
+  box-sizing: border-box;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

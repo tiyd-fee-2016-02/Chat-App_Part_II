@@ -1,10 +1,5 @@
-.chat-request {
-  background: white;
-  position: fixed;
-  bottom: 0;
-  padding: 25px;
-  width: 100%;
-
+input {
+  width: 95%;
 }
 
 .chat-container {
@@ -14,14 +9,14 @@
   bottom: 60px;
   overflow: scroll;
 
-  // .alert-info {
-  //   display: block;
-  //   float: left;
-  // }
-  //
-  // .alert-success {
-  //   display: block;
-  //   float: right;
-  // }
+}
+
+.chat-request {
+  background: transparent;
+  position: fixed;
+  bottom: 0;
+  padding: 25px;
+  box-sizing: border-box;
+  width: 100%;
 
 }
