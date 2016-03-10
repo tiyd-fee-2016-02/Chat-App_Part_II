@@ -56,6 +56,9 @@ $('.chat-input').keypress(function(event){
         case "@joke":
           atJoke();
             break;
+        case "@frengly":
+          atFrengly();
+            break;
         default:
           atWhat();
         } //closes switch
